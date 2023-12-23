@@ -32,7 +32,7 @@ img {
 }
 
 .content {
-    height: 200px;
+    height: 30vh;
     width: 100vw;
     background-color: white;
     border-radius: 40px 40px 0px 0px;
@@ -90,11 +90,8 @@ img {
 .otp {
     display: flex;
     flex-direction: column;
-    /* Arrange elements vertically */
     align-items: center;
-    /* Center items within the container */
     margin-bottom: 20px;
-    /* Adjust spacing as needed */
 }
 
 .otp p {
@@ -117,4 +114,15 @@ img {
     font-size: 18px;
     margin-right: 10px;
 
+}
+.end{
+    width:80%;
+    height:10%;
+    background-color: #0A69F6;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 10px;
 }
