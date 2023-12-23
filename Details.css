@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.body {
+    background-color: rgba(117, 115, 115, 0.756);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+
+
+}
+
+.body-photo {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    src: url("main.jpg");
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.content {
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -17px;
+    overflow: hidden;
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.first p {
+    color: rgb(7, 177, 244);
+}
+
+.second {
+    display: flex;
+   flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: white;
+    justify-content: space-between;
+}
+
+
+.name {
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(118, 114, 114);
+    border-radius: 20px;
+    border: white;
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    height: 50px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(118, 114, 114);
+    border-radius: 20px;
+    border: rgb(171, 23, 23);
+    display: flex;
+    align-items: center;
+}
+
+#phone {
+    border: none;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    justify-content: center;
+}
+#name{
+    border: none;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    justify-content: center;
+}
+
+ .label-gender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} 
+.save{
+    height:30px;
+    width:98%;
+    color:aliceblue;
+    background-color: rgb(37, 141, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}

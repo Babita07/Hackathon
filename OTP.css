@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.body {
+    background-color: rgba(117, 115, 115, 0.756);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+
+
+}
+
+.body-photo {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    src: url("main.jpg");
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.content {
+    height: 200px;
+    width: 100vw;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -17px;
+    overflow: hidden;
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.first p {
+    color: rgb(7, 177, 244);
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 10;
+}
+
+.text h3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    color: rgb(24, 135, 179);
+
+}
+
+.otp {
+    display: flex;
+    flex-direction: column;
+    /* Arrange elements vertically */
+    align-items: center;
+    /* Center items within the container */
+    margin-bottom: 20px;
+    /* Adjust spacing as needed */
+}
+
+.otp p {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.otp-input {
+    width: 30px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+
+}
